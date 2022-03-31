@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 import { HookUseCallback } from '@src/components/HookUseCallback'
 import { HookUseContext } from '@src/components/HookUseContext'
+import { HookUseDebugValue } from '@src/components/HookUseDebugValue'
 import { HookUseEffect } from '@src/components/HookUseEffect'
 import { HookUseMemo } from '@src/components/HookUseMemo'
 import { HookUseReducer } from '@src/components/HookUseReducer'
@@ -37,6 +38,9 @@ const Home: NextPage = () => {
       <hr />
       <h5>useRef</h5>
       <HookUseRef />
+      <hr />
+      <h5>useDebugValue</h5>
+      <HookUseDebugValue />
     </>
   )
 }

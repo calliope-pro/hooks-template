@@ -1,6 +1,7 @@
 /*
 useEffect (+ useState)
 https://ja.reactjs.org/docs/hooks-reference.html#usestate
+※ useLayoutEffectは同期的
 */
 import { useEffect, useState } from 'react'
 
